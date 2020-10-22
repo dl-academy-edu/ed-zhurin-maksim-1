@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.header-logo {
+
+}
+
+.header-list{
+
+}
+
+.header-menu{
+    display: flex;
+    margin-left: 60px;
+    white-space: nowrap;
+}
+
+.header-item{
+    margin-right: 20px;
+}
+
+.header-link{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.header-link-serch{
+    margin-left: 950px;
+}
+
+.header-contact{
+    margin-left: 23px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #1E0606;
+
+}
