@@ -1,25 +1,31 @@
 @import "header.css";
 @import "collection.css";
-
+@import "products.css";
+@import "delivery.css";
+@import "partners.css";
+@import "about-us.css";
+@import "footer.css";
 * {
-    font-family: 'Crimson Text', serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
 }
 
+a {
+text-decoration: none;
+}
+
 body{
     background-color: #ffffff;
+    margin: 0;
 }
 
-ul{
+ul {
     list-style-type: none;
     padding-left: 0;
+
 }
 
-a{
-    text-decoration: none;
-}
 
 h1, h2, h3, h4, h5, h6, p {
     margin-top: 0;
@@ -30,6 +36,6 @@ h1, h2, h3, h4, h5, h6, p {
     max-width: 1400px;
     padding-left: 110px;
     padding-right: 110px;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
 }

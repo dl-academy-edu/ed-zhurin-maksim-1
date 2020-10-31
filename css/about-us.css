@@ -1,0 +1,110 @@
+.about-us-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 116px;
+    width: 1180px;
+    height: 323px;
+}
+
+.about-us-design-block{
+    width: 543px;
+    height: 236px;
+    background-color: #E1F0F7;
+}
+
+.about-us-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-top: -26px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.about-us-description {
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+    color: #1E0606;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.about-us-content {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.about-us-buy-link {
+    display: flex;
+    margin-left: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 9px 22px 9px 22px;
+    color: #ffffff;
+    background-color: #000000;
+    width: 123px;
+    height: 40px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.about-us-buy-link:hover{
+    background-color: #C29974;
+
+}
+
+.about-us-buy-link:active{
+    background-color: #CFAF91;
+}
+
+.about-us-contact-block {
+    margin-left: 57px;
+    width: 543px;
+    height: 209px;
+    background-color: #E1F0F7;
+}
+
+.about-us-contact {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-left: 30px;
+    margin-top: -26px;
+    
+}
+
+.about-us-contact-content {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    padding: 41px 30px 20px 30px;
+}
+
+.about-us-map {
+  margin-left: 30px;
+  border-bottom: 60px;
+}
+
