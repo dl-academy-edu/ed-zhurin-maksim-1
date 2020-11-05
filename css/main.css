@@ -1,0 +1,41 @@
+@import "header.css";
+@import "collection.css";
+@import "products.css";
+@import "delivery.css";
+@import "partners.css";
+@import "about-us.css";
+@import "footer.css";
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+text-decoration: none;
+}
+
+body{
+    background-color: #ffffff;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container {
+    max-width: 1400px;
+    padding-left: 110px;
+    padding-right: 110px;
+    margin-right: auto;
+    margin-left: auto;
+}

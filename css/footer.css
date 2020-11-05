@@ -1,0 +1,242 @@
+.footer {
+    margin-top: 60px;
+    background-color: #464343;
+    max-width: 1400px;
+    height: 555px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.footer-main-block {
+    padding-top: 100px;
+    display: flex;
+    box-sizing: border-box;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.footer-main-block-item {
+    width: 380px;
+    border-bottom: 1px solid #666666;
+    margin-right: 20px;
+    padding-bottom: 23px;
+}
+
+.footer-main-block-link {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #aaaaaa;
+}
+
+.footer-main-block-link:hover{
+    color: #FFFFFF;
+    text-decoration-line: underline;
+}
+
+.footer-main-block-link:active{
+    color: #FFFFFF;
+    text-decoration-line: underline;
+}
+
+.footer-middle-block {
+    display: flex;
+    margin-top: 23px;
+    border-bottom: 1px solid #666666;
+}
+
+.footer-middle-block-menu-one {
+    width: 380px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.footer-middle-block-menu-two {
+    width: 380px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+}
+
+.footer-middle-block-item {
+    margin-bottom: 15px;
+}
+
+.footer-middle-block-link {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+.footer-middle-block-link:hover{
+    opacity: 0.5;
+}
+
+.footer-middle-block-link:active{
+    opacity: 0.2;
+}
+
+.connect-block {
+}
+
+.connect-block-form {
+    width: 380px;
+    display: flex;
+}
+
+.connect-block-form-input {
+    width: 299px;
+    height: 40px;
+    padding-left: 15px;
+    border: none;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ebebeb;
+}
+
+.connect-block-form-link-join {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 9px 22px;
+    background-color: black;
+}
+
+.connect-social-network {
+    margin-top: 25px;
+}
+
+.connect-block-form-image {
+    margin-right: 10px;
+}
+
+.connect-block-form-image {
+}
+
+.connect-block-form-image:hover {
+    opacity: 0.5;
+}
+
+.connect-block-form-image:active {
+    opacity: 0.2;
+}
+
+
+.footer-bottom-block {
+    display: flex;
+    margin-top: 23px;
+}
+
+.footer-bottom-block-span {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+
+.rating-star {
+    appearance: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 17px;
+    height: 16px;
+    background-size: 17px;
+    font-size: inherit;
+    background-repeat: repeat-x;
+    margin: 0;
+}
+
+.rating-star:focus {
+    outline: none;
+}
+
+.rating-star:hover {
+    background-image: url(/images/stars/star-hover.svg);
+}
+
+.rating-star:checked {
+    background-image: url(/images/stars/Star-active.svg);
+}
+
+.rating-star:hover ~ .rating-star {
+    background-image: url(/images/stars/star.svg);
+}
+
+.rating-group {
+    position: relative;
+    background-image: url(/images/stars/star.svg);
+    width: 85px;
+    appearance: none;
+    height: 16px;
+    background-size: 17px;
+    background-repeat: repeat-x;
+}
+
+.rating-star:nth-of-type(1) {
+    width: 17px;
+    z-index: 5;
+}
+
+.rating-star:nth-of-type(2) {
+    width: 34px;
+    z-index: 4;
+}
+
+.rating-star:nth-of-type(3) {
+    width: 51px;
+    z-index: 3;
+}
+
+.rating-star:nth-of-type(4) {
+    width: 68px;
+    z-index: 2;
+}
+
+.rating-star:nth-of-type(5) {
+    width: 85px;
+    z-index: 1;
+}
+
+.rating-caption {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+    margin-right: 25px;
+}
+
+.rating{
+    display: flex;
+    margin-right: 154px;
+}
+
+.footer-bottom-block-span{
+    margin-right: 109px;
+}
