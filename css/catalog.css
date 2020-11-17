@@ -1,0 +1,209 @@
+@import "header.css";
+@import "footer.css";
+@import "catalog.css";
+
+/* Title */
+.category-products{
+    margin-top: 60px;
+}
+
+.category-products-title-one{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.category-products-title-two{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;    
+}
+
+.category-products-title-menu{
+    margin-top: 15px;
+    display: flex;
+}
+
+.category-products-title-item{
+    
+}
+
+.category-products-title-link{
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1E0606;
+    
+}
+
+.active-catalog{
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1E0606;
+    opacity: 0.5;
+}
+
+.category-products-title-link::after{
+    content: '';
+    background-image: url(/images/Vector.svg);
+    width: 8px;
+    background-color: ffffff;
+    height: 12px;
+    background-size: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* images */
+
+.category-products-wrapper{
+    margin-top: 40px;
+    
+}
+
+.category-products-block-images{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: -10px;
+}
+
+
+.category-products-block-images-item{
+    display: block;
+    margin:  10px;
+    width: 33.33333%;
+}
+
+.category-products-block-images-item:nth-child(4n){
+    margin-left: 200px;
+}
+
+.category-products-block-images-item.kids{
+    background-image: url(/images/produtcs/1.jpg);
+    width: 280px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+.category-products-block-images-item.shop{
+    background-image: url(/images/produtcs/2.jpg);
+    width: 280px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.category-products-block-images-item.toys{
+    background-image: url(/images/produtcs/3.jpg);
+    width: 280px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.category-products-block-images-title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase; 
+    color: #FFFFFF;
+    max-width: 155px;
+}
+
+.category-products-block-images-title:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.category-products-block-images-title:active{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.category-products-block-images-item.accessories{
+    background-image: url(/images/produtcs/4.jpg);
+    width: 280px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.category-products-block-images-item.sale{
+    background-image: url(/images/produtcs/5.png);
+    width: 280px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.category-products-block-images-item.adults{
+    background-image: url(/images/produtcs/6.png);
+    width: 280px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* title-2 */
+
+.category-products-title-two{
+    margin-top: 55px;
+    padding-left: 190px;
+    padding-right: 300px;
+}
+
+.category-products-info{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding-left: 190px;
+    padding-right: 300px;
+}
+
+.category-products-image{
+
+}
+
+

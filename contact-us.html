@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Catalog</title>
+    <title>Contact us</title>
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@400;700&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link href="CSS/main.css" rel="stylesheet">
 </head>
 
@@ -17,10 +17,10 @@
         <nav class="header-menu">
             <ul class="header-menu-list">
                 <li class="header-list-item">
-                    <a href="/blog.html" class="header-list-link">Blog</a>
+                    <a href="/blog.html" class="header-list-link">blog</a>
                 </li>
                 <li class="header-list-item">
-                    <a class="header-list-link">Catalog</a>
+                    <a href="/Catalog.html" class="header-list-link">Catalog</a>
                 </li>
                 <li class="header-list-item">
                     <a href="#" class="header-list-link">About us</a>
@@ -32,55 +32,57 @@
                     <a href="#" class="header-link-serch"><img src="images/serch.png" alt="Serch"></a>
                 </li>
                 <li class="header-contact-item">
-                    <a href="/contact-us.html" class="header-contact-link">Contact Us</a>
+                    <a class="header-contact-link">Contact Us</a>
                 </li>
             </ul>
         </nav>
     </header>
-
-    <section class="category-products container">
-        <h1 class="category-products-title-one">category-products</h1>
-        <ol class="category-products-title-menu">
-            <li class="category-products-title-item">
-                <a href="/index.html" class="category-products-title-link">Home</a>
+    <main class="contact-us container">
+        <h1 class="blog-content-title">Contact us</h1>
+        <ol class="blog-content-title-menu">
+            <li class="blog-content-title-item">
+                <a href="/index.html" class="blog-content-title-link vector">Home</a>
             </li>
-            <li class="category-products-title-item">
-                <a class="active-catalog">Catalog</a>
+            <li class="blog-content-title-item">
+                <a class="blog-content-title-link active">Contact Us</a>
             </li>
         </ol>
-
-        <div class="category-products-wrapper">
-            <ul class="category-products-block-images">
-                <li class="category-products-block-images-item kids">
-                    <h3 class="category-products-block-images-title">Apparel kids</h3>
-                </li>
-                <li class="category-products-block-images-item shop">
-                    <h3 class="category-products-block-images-title">Holiday shop</h3>
-                </li>
-                <li class="category-products-block-images-item toys">
-                    <h3 class="category-products-block-images-title">Toys</h3>
-                </li>
-                <li class="category-products-block-images-item accessories">
-                    <h3 class="category-products-block-images-title">Accessories</h3>
-                </li>
-                <li class="category-products-block-images-item sale">
-                    <h3 class="category-products-block-images-title">Sale</h3>
-                </li>
-                <li class="category-products-block-images-item adults">
-                    <h3 class="category-products-block-images-title">Apparel adults</h3>
-                </li>
-            </ul>
-        </div>
-        <h2 class="category-products-title-two">Product Description</h2>
-        <p class="category-products-info">Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can
-            even bathe her, just like a little sister.</p>
-        <p class="category-products-info">A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be
-            an excellent choice for a gift for a girl from 4 years old.</p>
-        <p class="category-products-info">The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of
-            hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young
-            mistress.</p>
-    </section>
-
+        <section class="contact-us-content-block">
+            <form class="contact-form">
+                <div class="input">
+                    <label class="input-label" for="name">Name</label>
+                    <input class="text-input" type="text" placeholder="Ivan Ivanov" id="name">
+                </div>
+                <div class="input-two">
+                    <div class="input">
+                        <label class="input-label" for="phone">Phone</label>
+                        <input class="text-input" type="text" id="phone">
+                    </div>
+                    <div class="input">
+                        <label class="input-label" for="email">Email</label>
+                        <input class="text-input" type="text" id="email">
+                    </div>
+                </div>
+                <div class="input">
+                    <label for="text">Message</label>
+                    <textarea class="text-area" id="text"></textarea>
+                </div>
+                <div class="checkbox-block">
+                    <input type="checkbox" class="checkbox-input" id="contact-checkbox">
+                    <label for="contact-checkbox" class="checkbox-label">By clicking on the button, you consent to the
+                        processing of your personal data</label>
+                </div>
+                <a href="#" class="contact-us-button">SUBMIT</a>
+            </form>
+            <div class="about-us-block">
+                <p class="about-us-block-info">Our support team are on-hand to assist with any issues you are
+                    experiencing.</p>
+                <p class="about-us-block-info">Please use the form to contact us with your needs. Send us a message and
+                    we'll respond as soon as possible.</p>
+                <p class="about-us-block-info last">An expert is waiting to help you!</p>
+            </div>
+        </section>
+    </main>
     <footer class="footer">
         <div class="footer-wrapper container">
             <ul class="footer-main-block">
@@ -100,7 +102,7 @@
                         <a href="#" class="footer-middle-block-link">About Us</a>
                     </li>
                     <li class="footer-middle-block-item">
-                        <a href="#" class="footer-middle-block-link">Blog</a>
+                        <a href="#" class="footer-middle-block-link">blog</a>
                     </li>
                     <li class="footer-middle-block-item">
                         <a href="#" class="footer-middle-block-link">Design Services</a>
@@ -136,7 +138,8 @@
                 </ul>
                 <div class="connect-block">
                     <form class="connect-block-form">
-                        <input type=search placeholder="Email" class="connect-block-form-input">
+                        <input class="blogs-block-form-properties-input" type=search placeholder="Email"
+                            class="connect-block-form-input">
                         <a href="#" class="connect-block-form-link-join">Join</a>
                     </form>
                     <div class="connect-social-network">
@@ -155,11 +158,16 @@
                 <div class="rating">
                     <span class="rating-caption">Company rating</span>
                     <div class="rating-group">
-                        <input class="rating-star" type="radio" value="1" name="rating" aria-label="one">
-                        <input class="rating-star" type="radio" value="2" name="rating" aria-label="two">
-                        <input class="rating-star" type="radio" value="3" name="rating" aria-label="three">
-                        <input class="rating-star" type="radio" value="4" name="rating" aria-label="four">
-                        <input class="rating-star" type="radio" value="5" name="rating" aria-label="five">
+                        <input class="rating-star" class="blogs-block-form-properties-input" type="radio" value="1"
+                            name="rating" aria-label="one">
+                        <input class="rating-star" class="blogs-block-form-properties-input" type="radio" value="2"
+                            name="rating" aria-label="two">
+                        <input class="rating-star" class="blogs-block-form-properties-input" type="radio" value="3"
+                            name="rating" aria-label="three">
+                        <input class="rating-star" class="blogs-block-form-properties-input" type="radio" value="4"
+                            name="rating" aria-label="four">
+                        <input class="rating-star" class="blogs-block-form-properties-input" type="radio" value="5"
+                            name="rating" aria-label="five">
                     </div>
                 </div>
                 <span class="footer-bottom-block-span">Copyright © 2018 Dlk • Design Life Kids</span>

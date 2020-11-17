@@ -1,7 +1,7 @@
 .products-wrapper{
     position: relative;
     margin-top: 90px;
-    width: 1180px;
+    max-width: 1180px;
 }
 
 .products-title{
@@ -14,25 +14,52 @@
 }
 
 .products-menu-list{
-    margin: 20px -10px -10px;
+    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     
+
 }
 
-.products-menu-image{
-        width: 280px;
-        height: 270px;
-        
-}
-
-.products-menu-item{
-    position: relative;
+.products-menu-item-kids{
+    background-image: url(/images/produtcs/1.jpg);
+    width: 280px;
+    height: 270px;
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 25%;
-    padding: 10px;
+    text-align: center;
+}  
+
+.products-menu-item-shop{
+    background-image: url(/images/produtcs/2.jpg);
+    width: 280px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}  
+
+.products-menu-item-toys{
+    background-image: url(/images/produtcs/3.jpg);
+    width: 280px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}  
+
+.products-menu-item-accessories{
+    background-image: url(/images/produtcs/4.jpg);
+    width: 280px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }  
 
 .products-menu-description{
@@ -48,17 +75,15 @@
 }
 
 .products-menu-list-title{
-    position: absolute;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 32px;
-    margin: auto;
     text-transform: uppercase;
     color: #ffffff;
     max-width: 192px;
-    text-align: center;
+    
 }
 
 .products-menu-list-title:hover{
@@ -78,46 +103,32 @@
     
 }
 
-.pagination-button {
-    position: relative;
-    width: 37px;
-    height: 37px;
-    margin-right: 6px;
-    background-color: #E2F1F8;
-    background-size: 17px;
-    background-repeat: repeat-x;
-    appearance: none;
-    padding: 5px 12px 6px;
-}
 
 .products-button-left{
     background-size: 17px;
-    background-repeat: repeat-x;
-    appearance: none;
-    width: 17px;
-    height: 28px;
-    font-size: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 37px;
+    height: 37px;
     background-image: url(/images/buttons/Vector.svg);
     border: none;
     transform: rotate(180deg);
     background-color: #E2F1F8;
+    margin-right: 6px;
 }
 
 .products-button-right{
     background-size: 17px;
-    background-repeat: repeat-x;
-    appearance: none;
-    width: 17px;
-    height: 28px;
-    font-size: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 37px;
+    height: 37px;
     background-image: url(/images/buttons/Vector.svg);
     border: none;
     background-color: #E2F1F8;
+    margin-right: 20px;
 }
 
-.products-button-left:focus,.products-button-right:focus{
-    outline: none;
-}
 
 .products-button-left:hover,.products-button-right:hover{
     background-image: url(/images/buttons/Vector-hover.svg);

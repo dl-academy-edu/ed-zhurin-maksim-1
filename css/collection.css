@@ -8,9 +8,7 @@
 }
 
 .collection-number{
-
-    padding-top: 17px;
-    margin-left: 28px;
+    margin-bottom: 10px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 300;
@@ -19,38 +17,40 @@
     color: rgba(30, 6, 6, 0.05);
 }
 
-.collection-button{
+.collection-button-block{
+    position: absolute;
+    top: 17px;
+    left: 28px;
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
-    margin-left: 31px;
+}
+
+.collection-title-block{
+    padding-top: 89px;
+    margin-left: 133px;
+}
+
+.collection-button{
+    margin-bottom: 11px;
     width: 31px;
     height: 3px;
     background-color:#D6CAC2;
     border: none;
 }
 
-.collection-button:focus{
-    outline: none;
-}
 
 .collection-button:hover{
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
-    margin-left: 31px;
     width: 31px;
     height: 3px;
     background-color:#1E0606;
     cursor: pointer;
-
     border: none;
 }
 
+
 .collection-title{
-    position: absolute;
-    top: 89px;
-    display: flex;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -59,7 +59,7 @@
     color: #1E0606;
     width: 307px;
     height: 88px;
-    margin-left: 133px;
+
 }
 
 .collection-design{
@@ -68,9 +68,7 @@
     font-weight: normal;
     font-size: 20px;
     color: #1E0606;
-    margin-top: 51px;
-    margin-left: 133px;
-    
+    margin-top: 20px;
 }
 
 .collection-image{
@@ -81,26 +79,28 @@
 }
 
 .collection-button-explore{
-    display: flex;
+    display: inline-block;
     margin-top: 20px;
-    margin-left: 133px;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 9px 0px 0px 22px;
-    color: #ffffff;
-    background-color: #000000;
-    width: 161px;
-    height: 40px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 22px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 9px 22px;
+    border: none;
 }
 
 .collection-button-explore:hover{
     background-color: #C29974;
+}
 
+.collection-button-explore:focus{
+    outline-color: #C29974;
 }
 
 .collection-button-explore:active{
@@ -111,8 +111,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 39px;
-    width: 1180px;
+    min-height: 39px;
     background-color: #C29974;
     font-family: Open Sans;
     font-style: normal;
@@ -123,21 +122,8 @@
     text-transform: uppercase;
     color: #FFFFFF;
     margin-top: 0;
-   
- 
-    
-
 }
 
-.collection-button-block{
-    position: absolute;
-    align-self: flex-start;
-    margin-top: 17px;
-
-}
-
-
-
-.collection-title-block{
-    
+.active.collection-button{
+    background-color: #1E0606;
 }

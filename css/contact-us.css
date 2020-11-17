@@ -1,0 +1,122 @@
+@import "header.css";
+@import "footer.css";
+@import "toys.css";
+@import "blog.css";
+
+.contact-us{
+    margin-top: 60px;
+}
+
+.contact-us-content-block{
+    display: flex;
+}
+
+.blog-content-block{
+    display: flex;
+}
+
+.blog-content-title-menu{
+    margin-top: 15px;
+}
+
+/* FORM */
+
+.contact-form{
+    margin-top: 34px;
+    background-color: #E5EAF8;
+    display: block;
+    padding: 22px 40px 40px 42px;
+    max-width: 680px;
+}
+
+.input{
+    margin-top: 20px;
+}
+
+.text-input{
+    display: block;
+    width: 100%;
+    padding: 11px 22px;
+}
+
+.input-two{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+.input-two > * {
+    width: 50%;
+    padding: 10px;
+}
+
+.text-area{
+    display: flex;
+    width: 100%;
+    resize: none;
+    min-height: 150px;
+}
+
+.checkbox-block{
+    margin-top: 20px;
+}
+
+
+
+.contact-us-button{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 9px 22px;
+    background-color:#C1C1C1;
+    display: inline-block;
+}
+
+.text-input::placeholder{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1E0606;
+}
+
+.checkbox-label{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E0606;    
+}
+
+.about-us-block{
+    display: block;
+    margin-left: 120px;
+    margin-top: 34px;
+}
+
+.about-us-block-info{
+    margin-bottom: 20px;
+    max-width: 380px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
+
+.about-us-block-info.last{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #C29974;
+}

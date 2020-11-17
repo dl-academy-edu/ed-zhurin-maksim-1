@@ -1,14 +1,12 @@
 .about-us-wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     margin-top: 116px;
-    width: 1180px;
-    height: 323px;
+    margin-bottom: 147px;
 }
 
 .about-us-design-block{
-    width: 543px;
-    height: 236px;
     background-color: #E1F0F7;
 }
 
@@ -21,8 +19,7 @@
     text-transform: uppercase;
     color: #1E0606;
     margin-top: -26px;
-    margin-left: 30px;
-    margin-bottom: 10px;
+    padding-left: 30px;
 }
 
 .about-us-description {
@@ -32,8 +29,9 @@
     font-size: 26px;
     line-height: 32px;
     color: #1E0606;
-    margin-left: 30px;
-    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .about-us-content {
@@ -43,13 +41,14 @@
     font-size: 16px;
     line-height: 22px;
     color: #1E0606;
-    margin-left: 30px;
-    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
 }
 
 .about-us-buy-link {
     display: flex;
     margin-left: 30px;
+    margin-bottom: 35px;
     text-align: center;
     text-transform: uppercase;
     padding: 9px 22px 9px 22px;
@@ -66,7 +65,10 @@
 
 .about-us-buy-link:hover{
     background-color: #C29974;
+}
 
+.about-us-buy-link:focus{
+    outline-color: #C29974;
 }
 
 .about-us-buy-link:active{
@@ -75,9 +77,8 @@
 
 .about-us-contact-block {
     margin-left: 57px;
-    width: 543px;
-    height: 209px;
     background-color: #E1F0F7;
+    position: relative;
 }
 
 .about-us-contact {
@@ -100,11 +101,13 @@
     font-size: 16px;
     line-height: 22px;
     color: #1E0606;
-    padding: 41px 30px 20px 30px;
+    padding: 20px 30px 102px;
+    
 }
 
 .about-us-map {
-  margin-left: 30px;
-  border-bottom: 60px;
+    position: absolute;
+    top: 127px;
+    left: 30px;
 }
 
