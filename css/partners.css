@@ -3,10 +3,11 @@
     margin-bottom: 90px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.partners-menu-item{
-
+.partners-menu-item:hover{
+    cursor: pointer;
 }
 
 .partners-menu-image{

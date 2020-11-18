@@ -39,7 +39,6 @@
 }
 
 .delivery-menu-item:hover{
-    background-color: #E2F1F8;
     cursor: pointer;
 }
 
@@ -52,10 +51,18 @@
     color: #1E0606;
 }
 
+.active.delivery-menu-link{
+    font-weight: bold;
+    background-color: #E2F1F8;
+    cursor: pointer;
+    width: 326px;
+    height: 55px;
+    padding: 11px 180px 11px 60px;
+    margin-left: -60px;
+}
+
 .delivery-menu-link:hover{
     font-weight: bold;
-    
-
 }
 
 .delivery-content{
@@ -76,7 +83,6 @@
     padding: 9px 22px 9px 22px;
     color: #ffffff;
     background-color: #000000;
-    position: absolute;
     width: 149px;
     height: 40px;
     font-family: Open Sans;
@@ -89,9 +95,12 @@
 
 .delivery-menu-learn:hover{
     background-color: #C29974;
-
 }
 
 .delivery-menu-learn:active{
     background-color: #CFAF91;
+}
+
+.delivery-menu-learn:focus{
+    outline-color: #C29974;
 }
